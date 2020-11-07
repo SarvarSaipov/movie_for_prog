@@ -1,17 +1,22 @@
+link to the web site 
+
+
+https://sarvarsaipov.github.io/movie_for_prog/
+
 <!DOCTYPE html>
 <html>
   <head>
-    <!--bootstrap code-->
+    !--bootstrap code--
     <meta charset="utf-8"><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <!--bootstrap code end-->
     <title>Movies for programmers</title>
     
-    <!-- Latest compiled and minified CSS -->
+    !-- Latest compiled and minified CSS -
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
 <style>
-  <!--parametrs of registration list-->
+  !--parametrs of registration list--
 #window{
   width:300px;
   padding: 32px;
@@ -23,7 +28,7 @@
   background-color:#ffffff;
   position: fixed; left: 0; right:0;top:0; bottom:0;
 }
-  <!--parametrs of image of "x" ,place e.c. -->
+  !--parametrs of image of "x" ,place e.c. --
 .close{
   width:15px; height:15px;
  margin: 10px 0 0 300px;
@@ -32,10 +37,10 @@
   padding:0.5px; background:#ccc;
 }
 .close:hover{background:#fff}
-  <!--body section-->
+  !--body section desine--
 body {
-  background-image: url("images/background.jpg");<!--place of image of background-->
-  background-repeat: no-repeat;<!--to not repeat same picture if it size is small-->
+  background-image: url("images/background.jpg");!--place of image of background--
+  background-repeat: no-repeat;!--to not repeat same picture if it size is small--
   background-attachment: fixed;
   background-size: cover;
 }
@@ -72,7 +77,7 @@ body {
     
 
     
-  <!--bootstrap Buttons-->  
+  !--bootstrap Buttons--  
     
     <button type="button" class="btn btn-primary">Home</button>
     <button type="button" class="btn btn-danger"><a href="#C4">Contacts</a></button><!--we are give id because we can call him and then site scroll down to the section which calling-->
@@ -88,12 +93,12 @@ body {
     
     
        
- <!--not visible section wait when clic bootton Registration and later you can see -->
+ !--not visible section wait when clic bootton Registration and later you can see --
           <div id="window">
             <div class="form">
     <form action="#" method="post" enctype="multipart/form-data">
     
-      <img class="close" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwiki.tvclub.vip%2Fimages%2Fd%2Fd7%2F%25D0%2597%25D0%25BD%25D0%25B0%25D1%2587%25D0%25BE%25D0%25BA_%25D0%25BA%25D1%2580%25D0%25B5%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA.png&f=1&nofb=1" alt="" onclick="show('none')" ><!--image of "x" and when click to them registration section will be close-->
+      <img class="close" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwiki.tvclub.vip%2Fimages%2Fd%2Fd7%2F%25D0%2597%25D0%25BD%25D0%25B0%25D1%2587%25D0%25BE%25D0%25BA_%25D0%25BA%25D1%2580%25D0%25B5%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA.png&f=1&nofb=1" alt="" onclick="show('none')" >!--image of "x" and when click to them registration section will be close--
 
      <center><h1>Registration</h1> </center>
     <div class="email">
@@ -141,9 +146,9 @@ body {
    
     
     
-  <div class="in1"><!--class for back ground of this section-->
+  <div class="in1">!--class for back ground of this section--
    
-    <div style="float:left; padding-right:30px;"><img src="images/Mr Robot.jpg" alt="MrRobot" width="150"; height="150"><!--image of Mr.Robot and size of image-->
+    <div style="float:left; padding-right:30px;"><img src="images/Mr Robot.jpg" alt="MrRobot" width="150"; height="150">!--image of Mr.Robot and size of image--
      </div>
     
     <h2>Mr.Robot</h2>
@@ -151,7 +156,7 @@ body {
     <p>Director: Sam Esmail &nbsp&nbsp&nbsp Country: USA</p>
     <p>A contemporary and culturally resonant drama about a young programmer, Elliot, who suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot will find himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.</p>
    <br><br>
-    <a href="https://www.youtube.com/embed/xIBiJ_SzJTA">whatch trailer</a><!--link to the video-->
+    <a href="https://www.youtube.com/embed/xIBiJ_SzJTA">whatch trailer</a>!--link to the video--
     
    
     </div>
@@ -230,7 +235,7 @@ body {
        
     </div>
     
-    <!-code in js for registration page they can apper and be unvisible -->
+    !-code in js for registration page they can apper and be unvisible --
 <script>
   function show(state) {
       document.getElementById('window').style.display = state;
