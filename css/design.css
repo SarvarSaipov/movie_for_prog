@@ -1,0 +1,70 @@
+<style>
+#window{
+  width:300px;
+  padding: 32px;
+  border-radius:10px;
+  box-shadow:0 4px #ccc;
+  font-family: sans-serif;
+  letter-spacing:1px;
+  display: none;
+  background-color:#ffffff;
+  position: fixed; left: 0; right:0;top:0; bottom:0;
+}
+.close{
+  width:15px; height:15px;
+ margin: 10px 0 0 300px;
+  cursor:pointer;
+  border:0.5px solid #ccc;
+  padding:0.5px; background:#ccc;
+}
+.close:hover{background:#fff}
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.btn-group .button {
+ 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* main information about site */
+
+
+.in1, .in2 {
+  width:90%;
+  max-width:1000px;
+   background-color: #000000;/* black */
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 40px  auto;
+  cursor: pointer;
+  border-radius:10px;
+}
+
+
+
+</style> 
